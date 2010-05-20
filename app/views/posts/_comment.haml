@@ -1,0 +1,11 @@
+.comment
+  - if logged_in? && current_user.admin?
+    = link_to 'Destroy', post_comment_path(@object, comment), :method => :delete, :class => 'delete_comment'
+    - unless comment.confirm
+      = link_to 'Confirm', post_comment_path(@object, comment), :method => :put, :class => 'confirm_comment'
+  .comment_author
+    - if comment.user.nil?
+      = h(comment.title.blank? ? 'anonym' : comment.title)
+    -else
+      = h(comment.user.email)
+  .comment_content= h(comment.comment)

@@ -1,0 +1,43 @@
+[Thu May 20 11:08:47.102 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:08:47.389 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:09:30.921 2010] 0.000 sec [scan/2/rel 1 (0,20)] [post_core,post_delta] 
+[Thu May 20 11:09:40.832 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] http://localhost:3000/register/dYX17KVPhKEfhgDZJOJ_
+[Thu May 20 11:09:52.377 2010] 0.360 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd
+[Thu May 20 11:10:05.158 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:10:05.406 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:10:08.294 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:10:10.751 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] dewd
+[Thu May 20 11:10:49.504 2010] 0.020 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:10:54.702 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:10:58.636 2010] 0.001 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:11:07.816 2010] 0.001 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:11:16.727 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:16:29.343 2010] 0.018 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:16:33.210 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:16:45.802 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:16:48.112 2010] 0.000 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:19:28.203 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] post
+[Thu May 20 11:19:35.132 2010] 0.007 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:20:03.604 2010] 0.014 sec [all/2/rel 1 (0,20)] [post_core,post_delta] dewd1
+[Thu May 20 11:20:11.190 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] dew
+[Thu May 20 11:20:42.748 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:20:43.047 2010] 0.000 sec [scan/2/rel 0 (0,20)] [post_core] 
+[Thu May 20 11:20:48.329 2010] 0.001 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:22:30.863 2010] 0.022 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:24:03.752 2010] 0.020 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:24:21.582 2010] 0.017 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:25:03.297 2010] 0.009 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:25:48.189 2010] 0.016 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:29:42.336 2010] 0.018 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:29:55.145 2010] 0.020 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:30:19.685 2010] 0.019 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:30:36.604 2010] 0.016 sec [all/2/rel 1 (0,20)] [post_core,post_delta] when
+[Thu May 20 11:30:51.279 2010] 0.012 sec [all/2/rel 1 (0,20)] [post_core,post_delta] each
+[Thu May 20 11:36:11.266 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 11:39:46.230 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 11:43:38.926 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 12:00:04.274 2010] 0.008 sec [all/2/rel 1 (0,20)] [post_core,post_delta] each
+[Thu May 20 12:01:23.036 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 12:03:56.466 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 12:05:25.646 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS
+[Thu May 20 12:08:08.346 2010] 0.000 sec [all/2/rel 0 (0,20)] [post_core,post_delta] CSS

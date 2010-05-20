@@ -1,0 +1,6 @@
+%h1 Create post
+
+- form_for @object, :url => object_path(@object) do |f|
+  = f.error_messages
+  = render :partial => "form", :object => f
+  = f.submit "Save"

@@ -1,0 +1,20 @@
+[Thu May 20 11:01:31.551 2010] [56271] accepting connections
+[Thu May 20 11:06:29.435 2010] [56271] caught SIGTERM, shutting down
+[Thu May 20 11:06:29.437 2010] [56271] shutdown complete
+[Thu May 20 11:06:30.003 2010] [56334] accepting connections
+[Thu May 20 11:07:02.735 2010] [56334] rotating indices (seamless=1)
+[Thu May 20 11:07:02.743 2010] [56334] rotating index 'post_delta': success
+[Thu May 20 11:07:02.753 2010] [56334] rotating index 'post_core': success
+[Thu May 20 11:07:02.753 2010] [56334] rotating finished
+[Thu May 20 11:08:47.353 2010] [56334] rotating indices (seamless=1)
+[Thu May 20 11:08:47.369 2010] [56334] rotating index 'post_delta': success
+[Thu May 20 11:08:47.369 2010] [56334] rotating finished
+[Thu May 20 11:10:05.391 2010] [56334] rotating indices (seamless=1)
+[Thu May 20 11:10:05.403 2010] [56334] rotating index 'post_delta': success
+[Thu May 20 11:10:05.403 2010] [56334] rotating finished
+[Thu May 20 11:20:43.032 2010] [56334] rotating indices (seamless=1)
+[Thu May 20 11:20:43.041 2010] [56334] rotating index 'post_delta': success
+[Thu May 20 11:20:43.041 2010] [56334] rotating finished
+[Thu May 20 11:46:10.330 2010] [56334] caught SIGTERM, shutting down
+[Thu May 20 11:46:10.370 2010] [56334] shutdown complete
+[Thu May 20 11:58:41.695 2010] [57123] accepting connections

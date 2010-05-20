@@ -1,0 +1,27 @@
+%h1.title
+  %a{:href => by_category_path(@object.category_id)}= h(@object.category.title)
+  &nbsp;->&nbsp;
+  %a{:href => post_path(@object)}= h(@object.title)
+%p.content= h(@object.content)
+- if logged_in? && current_user.admin?
+  %a{:href => edit_post_path(@object)} Edit
+  = link_to 'Destroy', post_path(@object), :method => :delete
+.author= h(@object.user.email)
+.tags
+  - @object.tag_list.each do |tag|
+    %a{:href => by_tag_path(tag)}= h(tag)
+
+- unless @object.comments.blank?
+  %h2 Comments
+  = render :partial => 'comment', :collection => @object.comments
+%h2 Add comment
+- form_for Comment.new, :url => post_comments_path(@object), :method => :post do |f|
+  - unless logged_in?
+    %p
+      = f.label :title
+      = f.text_field :title
+  %p
+    = f.label :comment
+    = f.text_area :comment
+  %p
+    = f.submit "Create"

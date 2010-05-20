@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  email: test@email.com
+  crypted_password: MyString
+  password_salt: MyString
+  persistence_token: MyString
+  single_access_token: MyString
+  perishable_token: MyString
+
+two:
+  id: 2
+  email: test2@email.com
+  crypted_password: MyString
+  password_salt: MyString
+  persistence_token: MyString
+  single_access_token: MyString
+  perishable_token: MyString

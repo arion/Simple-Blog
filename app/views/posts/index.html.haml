@@ -1,0 +1,13 @@
+%h1 Posts
+- if logged_in? && current_user.admin?
+  %a{:href => new_post_path} Create post
+- @posts.each do |post|
+  .post_element
+    %h2
+      %a{:href => by_category_path(post.category_id)}= h(post.category.title)
+      &nbsp;->&nbsp;
+      %a{:href => post_path(post)}= h(post.title)
+    %p= h(post.content)
+    .tags
+      - post.tag_list.each do |tag|
+        %a{:href => by_tag_path(tag)}= h(tag)

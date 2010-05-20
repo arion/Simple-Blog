@@ -1,0 +1,12 @@
+%p
+  = form.label :category
+  = form.select :category_id, Category.all.collect {|c| [c.title, c.id]}, { :include_blank => true }
+%p
+  = form.label :title
+  = form.text_field :title
+%p
+  = form.label :content
+  = form.text_area :content
+%p
+  = form.label :tag_list
+  = form.text_field :tag_list

@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  title: not registret user
+  comment: first test comment
+  commentable_id: 1
+  commentable_type: Post
+  user_id: 0
+
+two:
+  id: 2
+  title: registret user
+  comment: last test comment
+  commentable_id: 1
+  commentable_type: Post
+  user_id: 1

@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
+    %link{:rel=>'shortcut icon', :href=>'/images/default/favicon.ico'}
+    = yield(:head)
+    %style{ :type => "text/css"} .match { color: red; }
+  %body
+    .flash_message
+      - if flash[:notice]
+        .notice= flash[:notice]
+      - if flash[:error]
+        .notice= flash[:error]
+    .head
+      %a{:href => root_path} Main Page
+      - if logged_in?
+        == Hellow #{current_user.email}
+        %a{:href => logout_path} Exit
+      - else
+        %a{:href => login_path} Loggin In
+        |
+        %a{:href => new_user_path} Sign Up
+    .search
+      - form_tag search_path, :method => :post do
+        = text_field_tag :query, params[:query]
+        = submit_tag 'Search'
+    .content= yield
